@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTS -->
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- BOOTSTRAP ICONS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title>Portifòlio</title>
+</head>
+<body>
+    <header>
+        
+        <div class="interface"><!-- Tag para limitar as laterais do meu site -->
+            
+            <div class="logo"><!-- Classe da minha logo -->
+                
+                <a href=""><!-- logo do site -->
+                    <img src="img/super-mario22.png" alt="Logo do site">
+                </a><!-- logo do site -->
+            </div><!-- Classe da minha logo -->
+            
+            <nav class="menu-desktop"> <!-- Menu -->
+                <ul>
+                    <li><a href="#secao1">Início</a></li>
+                    <li><a href="#secao2">Habilidades</a></li>
+                    <li><a href="#secao3">Sobre</a></li>
+                    <li><a href="#secao4">Portifólio</a></li>
+                </ul>
+            </nav><!-- Menu -->
+
+            <div class="btn-contato"><!-- Botão e classe p/ contato -->
+                <a href="#secao5">
+                    <button>Contato</button>
+                </a>
+            </div><!-- Botão e classe p/ contato -->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div> <!-- btn-abrir-menu -->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav> <!-- Menu -->
+                    <ul>
+                        <li><a href="#secao1">Início</a></li>
+                        <li><a href="#secao2">Habilidades</a></li>
+                        <li><a href="#secao3">Sobre</a></li>
+                        <li><a href="#secao4">Portifólio</a></li>
+                        <li><a href="#secao5">Contato</a></li>
+                    </ul>
+                </nav><!-- Menu -->
+            </div> <!-- menu-mobile -->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div><!-- Tag para limitar as laterais do meu site -->
+    </header>
+
+    <!-- Conteúdo principal do site -->
+    <main>
+        <section class="topo-do-site" id="secao1">
+            <div class="interface">
+                <div class="flex">
+                    <!-- Texto parte superior do site -->
+                    <div class="txt-topo-site">
+                        <h1>
+                            <span>"</span> O ÚNICO LUGAR ONDE SUCESSO VEM ANTES DE TRABALHO É NO DICIONÁRIO. <span>"</span>
+                        </h1>
+                        <p>
+                            Albert Einstein
+                        </p>
+                        <div class="btn-contato">
+                            <a href="#secao5">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Imagem parte superior do site -->
+                    <div class="img-topo-site">
+                        <img src="img/Albert03.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section><!-- topo-do-site -->
+
+        <section class="especialidades" id="secao2">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>HABILIDADES.</span></h2>
+
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <!-- icon da biblioteca do bootstrap -->
+                        <i class="bi bi-filetype-html"></i>
+                        <h3>Desenvolvimento </br>Front-end - HTML, CSS e JS</h3>
+                        <p>
+                            <ul>
+                                <li>Preparaçao do ambiente;</li>
+                                <li>Connhecendo a IDE;</li>
+                                <li>Identação do código;</li>
+                                <li>Organização dos arquivos;</li>
+                                <li>Utilização das TAGs.</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <!-- icon da biblioteca do bootstrap -->
+                        <i class="bi bi-filetype-php"></i>
+                        <h3>Desenvolvimento</br> Back-end - PHP</h3>
+                        <p>
+                            <ul>
+                                <li>Condicionais, Loops, Funções, Parâmetros;</li>
+                                <li>Includes, Formulário, Validações, Sessão;</li>
+                                <li>Arquivos, Manipulação de Array ;</li>
+                                <li>Orientação à Objetos, CRUD, DAO, SOLID;</li>
+                                <li>Padrão MVC, Criação de APIs e Infraestrutura;</li>
+                                <li>Criar, editar, buscar e excluir dados.</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <!-- icon da biblioteca do bootstrap -->
+                        <i class="bi bi-filetype-sql"></i>
+                        <h3>Banco de Dados Mysql</h3>
+                        <p>
+                            <ul>
+                                <li>Preparação do ambiente;</li>
+                                <li>Utilização da interface no PHPMyAdmin;</li>
+                                <li>Principais comandos;</li>
+                                <li>Criação de Banco de Dados;</li>
+                                <li>Criar, editar, buscar e excluir dados.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section><!-- especialidades -->
+
+        <section class="sobre" id="secao3">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="img/Jefson.png" alt="">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER,<span> SOU JÉFSON DAVID.</span></h2>
+                        <P>Nascido no interior de Minas Gerais e de uma família humilde, nunca tive acesso a tecnologias quando criança, tudo que tínhamos era apenas um rádio onde ouvíamos alguns programas durante o jantar.</P>
+
+                        <P>Aos 11 anos tive o meu primeiro contato com um computador, foi paixão à primeira vista. Maravilhado por uma máquina onde você conseguia apertar botões em um teclado e as letras apareciam na tela.</P>
+
+                        <p>Naquele momento eu sabia que de alguma forma aquela “engenhoca” faria parte da minha vida e que seria apenas questão de tempo.</p>
+
+                        <p>No entanto me deparei com um desafio enorme, como aprender a mexer naquilo? Então me matriculei no primeiro curso que encontrei em minha cidade e aos trancos e barrancos fui aprendendo.</p>
+
+                        <p>Hoje, com 30 anos de idade, continuo não só aprendendo a cada dia como também ele, o computador, continua me encantando e surpreendendo.</p>
+
+                        <p>E aqui estou, correndo atrás não somente de uma mudança na minha carreira como também de realizar um sonho.</p>
+
+
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/jefson_david/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/JefsonDavid"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/j%C3%A9fson-david-borges-285836330/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- sobre -->
+
+        <section class="portifolio" id="secao4">
+            <div class="interface">
+                <h2 class="titulo">MEU<span> PORTIFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(img/011.png);">
+                        <div class="overlay">SNH - Serviços na Hora</div>
+                        <!-- <p>Site voltado a pessoas que querem encontrar profissionais.</p> -->
+                    </div>
+                    <div class="img-port" style="background-image: url(img/022.png);">
+                        <div class="overlay">Login e Cadastro de Cliente</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(img/033.png);">
+                        <div class="overlay">Controle de Estoque</div>
+                    </div>
+                </div> <!-- flex -->
+            </div><!-- interface -->
+        </section><!-- portifolio -->
+
+        <section class="formulario" id="secao5">
+            <div class="interface">
+                <h2 class="titulo">FALA <span> COMIGO.</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail" required>
+                    <input type="text" name="" id="" placeholder="Seu celular">
+                    <textarea name="" id="" placeholder="Sua mensagem"></textarea>
+
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!-- inteface -->
+        </section><!-- formulário -->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="img/mario1.png" alt="">
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/jefson_david/"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/JefsonDavid"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/j%C3%A9fson-david-borges-285836330/"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!-- btn-social -->
+                </div><!-- flex -->
+            </div><!-- line-footer -->
+                
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i><a href="mailto:jefsondavid@gmail.com"> jefsondavid@gmail.com</a></p>
+            </div><!-- line-footer -->
+        </div><!--  interface -->
+    </footer>
+</body>
+</html>
